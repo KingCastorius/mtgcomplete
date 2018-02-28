@@ -6,7 +6,7 @@ import {Grid, Row, Cell} from 'react-inline-grid';
 import Styles from '../styles'
 let key = 0
 const mtg = require('mtgsdk')
-// const coverImg = require('../tap.png')
+const coverImg = require('../tap.png')
 
 class HomePage extends React.Component{
 
@@ -62,7 +62,7 @@ class HomePage extends React.Component{
               <h1 style={Styles.listColor}>Tapped</h1>
               <p>A Magic: the Gathering Collection Gallery</p>
               <h1>
-                {/* <img src={coverImg}/> */}
+                <img src={coverImg}/>
               </h1>
             </Cell>
           </Row>
